@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        firstImageView.image = diceArray[0]
+        secondImageView.image = diceArray[0]
     }
 
     @IBAction func rollButtonTapped(_ sender: UIButton) {
